@@ -5,5 +5,5 @@ app = Flask(__name__)
 def home():
   return "hello world from neural automation WIP!!!"
 
-
-app.run()
+if __name__ == '__main__':
+    app.run(debug=True)
